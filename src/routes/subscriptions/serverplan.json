@@ -1,0 +1,22 @@
+[
+    {
+        "index": 0,
+        "packagename": "Free",
+        "price": 0
+    },
+    {
+        "index": 1,
+        "packagename": "Basic Package - USD 8.00",
+        "price": 8
+    },
+    {
+        "index": 2,
+        "packagename": "Pro Package - USD 15.00",
+        "price": 15
+    },
+    {
+        "index": 3,
+        "packagename": "Business Package - USD 45.00",
+        "price": 15
+    }
+]

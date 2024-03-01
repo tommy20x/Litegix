@@ -1,0 +1,47 @@
+[{
+        "index": 0,
+        "packagename": "5GB - USD 0.00",
+        "price": 0
+    },
+    {
+        "index": 1,
+        "packagename": "10GB - USD 0.00",
+        "price": 0
+    },
+    {
+        "index": 2,
+        "packagename": "50GB - USD 0.00",
+        "price": 0
+    },
+    {
+        "index": 3,
+        "packagename": "100GB - USD 5.00",
+        "price": 5
+    },
+    {
+        "index": 4,
+        "packagename": "200GB - USD 8.00",
+        "price": 8
+    },
+    {
+        "index": 5,
+        "packagename": "500GB - USD 10.00",
+        "price": 10
+    },
+    {
+        "index": 6,
+        "packagename": "1000GB - USD 20.00",
+        "price": 20
+    },
+    {
+        "index": 7,
+        "packagename": "2000GB - USD 30.00",
+        "price": 30
+    },
+    {
+        "index": 8,
+        "packagename": "3000GB - USD 35.00",
+        "price": 35
+    }
+
+]

@@ -1,0 +1,79 @@
+# Check Ports
+sudo lsof -i -P -n | grep LISTEN
+sudo netstat -tulpn | grep LISTEN
+sudo ss -tulpn | grep LISTEN
+sudo lsof -i:22 ## see a specific port such as 22 ##
+sudo nmap -sTU -O IP-address-Here
+
+##############################################################################################################
+# Remove nginx
+systemctl stop nginx
+systemctl status nginx
+apt remove --purge nginx
+apt-get purge nginx
+
+systemctl stop mysql
+apt-get remove --purge mysql*
+apt-get remove --purge mysql-server
+rm -rf /var/lib/mysql
+rm -rf /etc/mysql
+rm /etc/apparmor.d/abstractions/mysql
+rm /usr/share/bash-completion/completions/mysql
+rm -rf /etc/mysql/conf.d/root.cnf
+
+apt-get remove --purge php5*
+apt-get remove --purge php7*
+apt-get remove --purge php8*
+
+systemctl stop lsws
+/usr/local/lsws/admin/misc/uninstall.sh
+rm -f /usr/local/bin/wp
+
+systemctl stop litegix-agent
+systemctl status litegix-agent
+apt remove --purge litegix-agent
+apt-get purge litegix-agent
+rm -rf /litegix/litegix-agent
+
+##############################################################################################################
+# All users
+getent passwd
+
+sudo deluser --remove-home userNameHere
+
+ls /etc/systemd/system/
+
+
+##############################################################################################################
+# MySQL 8.0
+
+cat /etc/mysql/my.cnf
+vim /etc/mysql/conf.d/root.cnf
+cat /etc/mysql/mysql.conf.d/mysqld.cnf
+vim /etc/mysql/mysql.conf.d/mysql.cnf
+
+
+
+[client]
+user=root
+password=!C6gwCEd_L6dherXvrD9fCOt1e67v6g1AKpRcv4ml5TTVDmLGIMnBNVWJ1NcKF7tu
+
+[mysql]
+user=root
+password=!C6gwCEd_L6dherXvrD9fCOt1e67v6g1AKpRcv4ml5TTVDmLGIMnBNVWJ1NcKF7tu
+
+ALTER USER 'root'@'localhost' IDENTIFIED BY '!C6gwCEd_L6dherXvrD9fCOt1e67v6g1AKpRcv4ml5TTVDmLGIMnBNVWJ1NcKF7tu';
+
+
+journalctl --unit=litegix-agent
+
+Control Commands
+Start OpenLiteSpeed: systemctl start lsws
+Stop OpenLiteSpeed: systemctl stop lsws
+Gracefully restart OpenLiteSpeed (zero downtime): systemctl restart lsws
+Show OpenLiteSpeed commands: /usr/local/lsws/bin/lswsctrl help
+Miscellaneous Commands
+Reset the WebAdmin password from the command line: /usr/local/lsws/admin/misc/admpass.sh
+Switch between XML and plain text configuration files: /usr/local/lsws/conf/switch_config.sh
+Check OpenLiteSpeed version: /usr/local/lsws/bin/lshttpd -v
+Check OpenLiteSpeed configuration errors: /usr/local/lsws/bin/openlitespeed -t

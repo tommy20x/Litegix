@@ -1,0 +1,97 @@
+[{
+  "_id": {
+    "$oid": "61080bfd7d8523f545e5a127"
+  },
+  "label": "Error",
+  "log": "Unable to communicate with Server ReCloud (65.21.49.177).",
+  "date": "02 Jul 2021",
+  "time": "01:03:51 PM",
+  "serverId": {
+    "$oid": "60f844130d0e24372c06e334"
+  }
+},{
+  "_id": {
+    "$oid": "61080c417d8523f545e5a128"
+  },
+  "label": "Info",
+  "log": "Added new database DBTest with collation utf8_general_ci",
+  "date": "02 Jul 2021",
+  "time": "01:03:51 PM",
+  "serverId": {
+    "$oid": "60f844130d0e24372c06e334"
+  }
+},{
+  "_id": {
+    "$oid": "61080c657d8523f545e5a129"
+  },
+  "label": "Warning",
+  "log": "Added firewall rule: Accept any IP Address to 80/TCP",
+  "date": "02 Jul 2021",
+  "time": "01:03:51 PM",
+  "serverId": {
+    "$oid": "60f844130d0e24372c06e334"
+  }
+},{
+  "_id": {
+    "$oid": "61080c7b7d8523f545e5a12a"
+  },
+  "label": "Error",
+  "log": "Unable to communicate with Server ReCloud (65.21.49.177).",
+  "date": "02 Jul 2021",
+  "time": "01:03:51 PM"
+},{
+  "_id": {
+    "$oid": "61080c8e7d8523f545e5a12b"
+  },
+  "label": "Info",
+  "log": "Added new database DBTest with collation utf8_general_ci",
+  "date": "02 Jul 2021",
+  "time": "01:03:51 PM",
+  "serverId": {
+    "$oid": "60f844130d0e24372c06e334"
+  }
+},{
+  "_id": {
+    "$oid": "61080ca27d8523f545e5a12c"
+  },
+  "label": "Warning",
+  "log": "Added firewall rule: Accept any IP Address to 80/TCP",
+  "date": "02 Jul 2021",
+  "time": "01:03:51 PM",
+  "serverId": {
+    "$oid": "60f844130d0e24372c06e334"
+  }
+},{
+  "_id": {
+    "$oid": "61080cb57d8523f545e5a12d"
+  },
+  "label": "Error",
+  "log": "Unable to communicate with Server ReCloud (65.21.49.177).",
+  "date": "02 Jul 2021",
+  "time": "01:03:51 PM",
+  "serverId": {
+    "$oid": "60f844130d0e24372c06e334"
+  }
+},{
+  "_id": {
+    "$oid": "61080cc87d8523f545e5a12e"
+  },
+  "label": "Info",
+  "log": "Added new database DBTest with collation utf8_general_ci",
+  "date": "02 Jul 2021",
+  "time": "01:03:51 PM",
+  "serverId": {
+    "$oid": "60f844130d0e24372c06e334"
+  }
+},{
+  "_id": {
+    "$oid": "61080cdb7d8523f545e5a12f"
+  },
+  "label": "Warning",
+  "log": "Added firewall rule: Accept any IP Address to 80/TCP",
+  "date": "02 Jul 2021",
+  "time": "01:03:51 PM",
+  "serverId": {
+    "$oid": "60f844130d0e24372c06e334"
+  }
+}]
